@@ -1,24 +1,17 @@
-<script setup lang="ts">
-import {ref} from "vue";
-import {DynamicForm} from "dynamicformdjx";
-import {NaiveUiDynamicForm} from "dynamicformdjx/naiveUi";
-
-const test = ref<{ a: string, b: number, c: number[] }>({
-  a: '1111',
-  b: 123,
-  c: [1, 3, 5]
-})
-</script>
-
 <template>
   <div>
-    <DynamicForm v-model="test"/>
-    <naive-ui-dynamic-form v-model="test"
-                           :dy-list-configs="{arraySplitSymbol:'-'}"
-                           />
-    <p>{{ test }}</p>
+<!--    <test/>-->
+<!--    <single-form/>-->
+    <cascade-form/>
   </div>
 </template>
+
+<script setup lang="ts">
+
+// import Test from "./components/test.vue";
+import SingleForm from "./components/singleForm.vue";
+import CascadeForm from "./components/cascadeForm.vue";
+</script>
 
 <style scoped>
 
