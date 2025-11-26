@@ -12,7 +12,7 @@ hero:
 #      link: /markdown-examples
     - theme: brand
       text: API Examples
-      link: /api-examples
+      link: /base-examples
 
 features:
   - title: 功能 1

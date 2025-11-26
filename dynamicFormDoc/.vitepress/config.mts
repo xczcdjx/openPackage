@@ -27,7 +27,7 @@ export default defineConfig({
                         text: 'Examples',
                         items: [
                             // {text: 'Markdown Examples', link: '/markdown-examples'},
-                            {text: 'Runtime API Examples', link: '/api-examples'}
+                            {text: '组件', link: '/base-examples'}
                         ]
                     }
                 ],
@@ -40,19 +40,18 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     {text: 'Home', link: '/en/'},
-                    {text: 'Examples', link: '/en/markdown-examples'}
+                    {text: 'Example', link: '/en/markdown-examples'}
+                    // {text: 'Runtime API Examples', link: '/en/base-examples'}
                 ],
-                /*sidebar: {
-                  '/en/': [
+                sidebar: [
                     {
-                      text: 'Getting Started',
-                      items: [
-                        { text: 'Intro', link: '/en/' },
-                        // { text: 'Guide', link: '/en/guide' }
-                      ]
+                        text: 'Examples',
+                        items: [
+                            // {text: 'Markdown Examples', link: '/markdown-examples'},
+                            {text: 'Component', link: '/en/base-examples'}
+                        ]
                     }
-                  ]
-                }*/
+                ],
             }
         }
     },
