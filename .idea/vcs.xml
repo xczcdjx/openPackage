@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dynamicForm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dynamicForm-React" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dynamicFormDoc" vcs="Git" />
   </component>
 </project>
