@@ -1,8 +1,8 @@
 <template>
   <div>
 <!--    <test/>-->
-<!--    <single-form/>-->
-    <cascade-form/>
+    <single-form/>
+<!--    <cascade-form/>-->
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 
 // import Test from "./components/test.vue";
 import SingleForm from "./components/singleForm.vue";
-import CascadeForm from "./components/cascadeForm.vue";
+// import CascadeForm from "./components/cascadeForm.vue";
 </script>
 
 <style scoped>

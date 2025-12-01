@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "devVue": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "dynamic-form-vue3": "^1.4.9",
-    "dynamicformdjx": "^0.1.1",
+    "dynamicformdjx": "^0.1.4",
     "vue": "^3.5.24"
   },
   "devDependencies": {
